@@ -1,4 +1,9 @@
 
 .intro {
-  background-color: lightgray;
+  background-color: lightskyblue;
+  border: black;
+  border-style: solid;
+  border-width: medium;
+  margin: 2%;
+  padding: 2%;
 }
