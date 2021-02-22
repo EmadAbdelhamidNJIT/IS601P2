@@ -5,103 +5,311 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="..\css\myStyle.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <title>History of the Internet home page</title>
+    <title>About page</title>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
 <div class="card mb-3"><!--Header banner-->
-    <img src="..\images\dsBuffer.jpg" class="img-fluid" alt="Internet" >
+    <img src="..\images\dsBuffer.jpg" class="img-fluid" alt="Internet">
     <div class="card-body">
         <h5 class="card-title">History of the Internet</h5>
-        <p class="card-text">History of Internet Website</p>
+        <p class="card-text">IS 601 - History of Internet Website</p>
     </div>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-body"><!--Main navigation bar-->
-  <div class="container-fluid">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item" >
-          <a class="nav-link active" aria-current="page" href="about.html">About</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="team.html">Team</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="TheInventionOfTheInternet.html">The Invention of the Internet</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="BrowserWars.html">Browser Wars</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="InternetSearch.html">Internet Search</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="DotComBubble.html">Dot Com Bubble</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="People.html">People</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="HistoryOfInternetWebsite.html">History of Internet Website</a>
-        </li>
-
-      </ul>
-
-    </div>
-  </div>
-</nav>
 <ul class="nav nav-pills nav-justified">
-  <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item" >
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="team.html">Team</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="TheInventionOfTheInternet.html">The Invention of the Internet</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="BrowserWars.html">Browser Wars</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="InternetSearch.html">Internet Search</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="DotComBubble.html">Dot Com Bubble</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="People.html">People</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="HistoryOfInternetWebsite.html">History of Internet Website</a>
-        </li>
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="about.html">About</a>
+    </li>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="team.html">Team</a>
+    </li>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="TheInventionOfTheInternet.html">The Invention of the Internet</a>
+    </li>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="BrowserWars.html">Browser Wars</a>
+    </li>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="InternetSearch.html">Internet Search</a>
+    </li>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="DotComBubble.html">Dot Com Bubble</a>
+    </li>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="People.html">People</a>
+    </li>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="HistoryOfInternetWebsite.html">History of Internet Website</a>
+    </li>
 </ul>
 
+<div class="intro">
+    This website is a part of the IS601 class.
+    It demonstrates the History of the internet based on some documentaries.
+    Below is a time line of the history of the internet that highlights some of the major milestones that the internet
+    passed over it's history.
+</div>
+
+
+<div class="container">
+
+    <!-- Page header -->
+    <div class="page-header">
+        <h2>Timeline</h2>
+    </div>
+    <!-- /Page header -->
+
+    <!-- Timeline -->
+    <div class="timeline">
+
+        <!-- Line component -->
+        <div class="line text-muted"></div>
+
+        <!-- Separator -->
+        <div class="separator text-muted">
+            <time>1957</time>
+        </div>
+        <!-- /Separator -->
+
+        <!-- Panel -->
+        <article class="panel panel-danger panel-outline">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-heart"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Body -->
+            <div class="panel-body">
+                <strong>The Invention of the Internet</strong>
+            </div>
+            <!-- /Body -->
+
+        </article>
+        <!-- /Panel -->
+
+
+
+        <!-- Panel -->
+        <article class="panel panel-default panel-outline">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-picture"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Body -->
+            <div class="panel-body">
+                <img class="img-responsive img-rounded" src="../images/valentin-petkov-kuqhuc28g_Q-unsplash.jpg/" width="20%" height="20%" />
+            </div>
+            <!-- /Body -->
+
+        </article>
+        <!-- /Panel -->
+
+        <!-- Line component -->
+        <div class="line text-muted"></div>
+
+        <!-- Separator -->
+        <div class="separator text-muted">
+            <time>1957</time>
+        </div>
+        <!-- /Separator -->
+
+        <!-- Panel -->
+        <article class="panel panel-primary">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-plus"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Heading -->
+            <div class="panel-heading">
+                <h2 class="panel-title">Browser Wars Part 1</h2>
+            </div>
+            <!-- /Heading -->
+
+            <!-- Body -->
+            <div class="panel-body">
+                Some new content has been added.
+            </div>
+            <!-- /Body -->
+
+            <!-- Footer -->
+            <div class="panel-footer">
+                <small>Footer is also supported!</small>
+            </div>
+            <!-- /Footer -->
+
+        </article>
+        <!-- /Panel -->
+
+        <article class="panel panel-primary">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-plus"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Heading -->
+            <div class="panel-heading">
+                <h2 class="panel-title">Internet Search Part 2</h2>
+            </div>
+            <!-- /Heading -->
+
+            <!-- Body -->
+            <div class="panel-body">
+                Some new content has been added.
+            </div>
+            <!-- /Body -->
+
+            <!-- Footer -->
+            <div class="panel-footer">
+                <small>Footer is also supported!</small>
+            </div>
+            <!-- /Footer -->
+
+        </article>
+        <!-- /Panel -->
+
+        <article class="panel panel-primary">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-plus"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Heading -->
+            <div class="panel-heading">
+                <h2 class="panel-title">Dot Com Bubble Part 3</h2>
+            </div>
+            <!-- /Heading -->
+
+            <!-- Body -->
+            <div class="panel-body">
+                Some new content has been added.
+            </div>
+            <!-- /Body -->
+
+            <!-- Footer -->
+            <div class="panel-footer">
+                <small>Footer is also supported!</small>
+            </div>
+            <!-- /Footer -->
+
+        </article>
+        <!-- /Panel -->
+
+        <article class="panel panel-primary">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-plus"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Heading -->
+            <div class="panel-heading">
+                <h2 class="panel-title">People Part 4</h2>
+            </div>
+            <!-- /Heading -->
+
+            <!-- Body -->
+            <div class="panel-body">
+                Some new content has been added.
+            </div>
+            <!-- /Body -->
+
+            <!-- Footer -->
+            <div class="panel-footer">
+                <small>Footer is also supported!</small>
+            </div>
+            <!-- /Footer -->
+
+        </article>
+        <!-- /Panel -->
+
+        <!-- Separator -->
+        <div class="separator text-muted">
+            <time>25. 3. 2015</time>
+        </div>
+        <!-- /Separator -->
+
+        <!-- Panel -->
+        <article class="panel panel-success">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-plus"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Heading -->
+            <div class="panel-heading">
+                <h2 class="panel-title">History of Internet Website</h2>
+            </div>
+            <!-- /Heading -->
+
+            <!-- Body -->
+            <div class="panel-body">
+                Anything you can do with <code>.panel</code>, can be done in timeline too!
+            </div>
+            <!-- /Body -->
+
+
+
+        </article>
+        <!-- /Panel -->
+
+        <!-- Panel -->
+        <article class="panel panel-info panel-outline">
+
+            <!-- Icon -->
+            <div class="panel-heading icon">
+                <i class="glyphicon glyphicon-info-sign"></i>
+            </div>
+            <!-- /Icon -->
+
+            <!-- Body -->
+            <div class="panel-body">
+                Inovation continues!...
+            </div>
+            <!-- /Body -->
+
+        </article>
+        <!-- /Panel -->
+
+    </div>
+    <!-- /Timeline -->
+
+</div>
+</div>
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -114,8 +322,6 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 -->
-
-
 
 </body>
 </html>
