@@ -1,2 +1,2 @@
-# the History of the internt website
-https://www.webizly.com/HistoryOfInternet/  <- Live Site
+# The History of the Internet Website
+https://emadabdelhamidnjit.github.io/IS601P2/  <- Live Site
